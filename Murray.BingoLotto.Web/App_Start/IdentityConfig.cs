@@ -1,23 +1,20 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
-using System.Web;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using Microsoft.Owin.Security;
-using MvcPWy.Models;
+using Murray.BingoLotto.Identity;
+using Murray.BingoLotto.Web.Models;
 using SendGrid;
 using System.Net;
 using System.Configuration;
 using System.Diagnostics;
 using Twilio;
-using RavenDB.AspNet.Identity;
 using Raven.Client;
 
-namespace MvcPWy
+namespace Murray.BingoLotto.Web
 {
     public class EmailService : IIdentityMessageService
     {
@@ -43,7 +40,7 @@ namespace MvcPWy
                        );
 
             // Create a Web transport for sending email.
-            var transportWeb = new Web(credentials);
+            var transportWeb = new SendGrid.Web(credentials);
 
             try
             {

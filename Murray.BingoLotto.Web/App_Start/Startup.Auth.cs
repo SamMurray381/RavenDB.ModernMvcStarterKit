@@ -5,10 +5,10 @@ using Microsoft.Owin;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Owin;
-using MvcPWy.Models;
+using Murray.BingoLotto.Web.Models;
 using System.Configuration;
 
-namespace MvcPWy
+namespace Murray.BingoLotto.Web
 {
 public partial class Startup
 {
