@@ -2,9 +2,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RavenDbStarterKit", "RavenStarterKit\RavenDbStarterKit.csproj", "{A0C81FFE-D414-40F9-BED1-5A9434FD6B12}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BingoLottoApp", "Murray.BingoLotto.Web\Murray.BingoLotto.Web.csproj", "{A0C81FFE-D414-40F9-BED1-5A9434FD6B12}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RavenDB.AspNet.Identity", "RavenDB.AspNet.Identity\RavenDB.AspNet.Identity\RavenDB.AspNet.Identity.csproj", "{C147FA58-04F8-4139-9E6E-E3D72F3E30EC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Murray.BingoLotto.Identity", "Murray.BingoLotto.Identity\Murray.BingoLotto.Identity\Murray.BingoLotto.Identity.csproj", "{C147FA58-04F8-4139-9E6E-E3D72F3E30EC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{F49BCCCA-1B8F-4FF8-A67D-18D24D70DE2A}"
 	ProjectSection(SolutionItems) = preProject
