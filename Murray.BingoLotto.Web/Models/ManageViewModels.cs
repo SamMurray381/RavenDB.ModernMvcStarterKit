@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using Microsoft.AspNet.Identity;
 using Microsoft.Owin.Security;
 
-namespace MvcPWy.Models
+namespace Murray.BingoLotto.Web.Models
 {
     public class IndexViewModel
     {

@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace MvcPWy.Models
+namespace Murray.BingoLotto.Web.Models
 {
     public class ExternalLoginConfirmationViewModel
     {

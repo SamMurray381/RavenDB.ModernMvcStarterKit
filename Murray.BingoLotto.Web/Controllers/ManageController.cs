@@ -6,10 +6,10 @@ using System.Web.Mvc;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
-using MvcPWy.Models;
+using Murray.BingoLotto.Web.Models;
 using Raven.Client;
 
-namespace MvcPWy.Controllers
+namespace Murray.BingoLotto.Web.Controllers
 {
     [Authorize]
     public class ManageController : Controller

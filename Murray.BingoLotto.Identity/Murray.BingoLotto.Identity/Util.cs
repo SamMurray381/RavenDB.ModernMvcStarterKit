@@ -5,7 +5,7 @@ using System.Security.Cryptography;
 using System.Text;
 using Microsoft.AspNet.Identity;
 
-namespace RavenDB.AspNet.Identity
+namespace Murray.BingoLotto.Identity
 {
     internal static class Util
     {

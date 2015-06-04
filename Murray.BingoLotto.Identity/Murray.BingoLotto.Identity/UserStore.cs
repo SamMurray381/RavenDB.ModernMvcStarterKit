@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNet.Identity;
 using Raven.Client;
 
-namespace RavenDB.AspNet.Identity
+namespace Murray.BingoLotto.Identity
 {
     public class UserStore<TUser> : IUserStore<TUser>, IUserLoginStore<TUser>, IUserClaimStore<TUser>, IUserRoleStore<TUser>,
         IUserPasswordStore<TUser>, IUserSecurityStampStore<TUser>, IUserEmailStore<TUser>, IUserLockoutStore<TUser, string>,
